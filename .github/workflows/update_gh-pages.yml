@@ -26,6 +26,7 @@ jobs:
       - name: Commit documentation changes
         run: |
           git clone https://github.com/artturuusila/Soft4PES.git --branch gh-pages --single-branch gh-pages
+          mkdir -p gh-pages/docs/
           cp -r docs/build/html/* gh-pages/docs/
           cd gh-pages
           touch .nojekyll
