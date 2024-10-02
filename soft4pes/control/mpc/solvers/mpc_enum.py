@@ -1,4 +1,4 @@
-"""Enumeration based solver for model predictive control (MPC)."""
+"""Enumeration based solver for Model Predictive Control (MPC)."""
 
 from itertools import product
 import numpy as np
