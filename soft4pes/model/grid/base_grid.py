@@ -1,5 +1,5 @@
 """
-Base values for a grid
+Base values for a grid.
 """
 
 import numpy as np
